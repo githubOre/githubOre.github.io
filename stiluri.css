@@ -1,9 +1,10 @@
 .continator-meniu{
+    padding: 0px 15px 0px 15px;
     display: flex;
-    padding: 0px 0px 0px 30px;
     background-color: #efede4;
     margin: 30px 0px 0px 0px;
     justify-content: space-between;
+    
 }
 
 html, body {
@@ -11,15 +12,22 @@ html, body {
     padding: 0px;
 }
 .logo{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+}
+.logo > img{
+    max-width: 100%;
+    height: auto;
 }
 .meniu-navigare{
     display: flex;
     flex-wrap: nowrap;
     margin: 0px;
     padding: 0px;
-    margin-right: 25%;
+    margin-right: 5%;
+    height: 100%;
+    align-self: center;
 }
 
 .lista-elemente{
@@ -27,18 +35,25 @@ html, body {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
 }
 
 .element-meniu{
-    display: block;
-    padding: 0px;
+    display: inherit;
+    margin: 0px;
     height: 100%;
-
 }
-
-.element-meniu:hover{
+.element-meniu>a{
+    padding: 25px 10px 25px 10px;
+    margin: 0px;
+    height: 100%;
+}
+.element-meniu>a:hover{
     background-color: #6b6b6b;
-    color: white;
+    color: orange;
+    transition-duration: .5s;
 }
 
 ul{
@@ -48,13 +63,7 @@ ul{
 a{
     text-decoration: none;
     color: black;
-    height: inherit;
-}
-
-li{
-    width: max-content;
-    margin: 0px 20px 0px 0px;
-    padding: 0px;
+    
 }
 
 
