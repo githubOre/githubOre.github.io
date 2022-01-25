@@ -55,7 +55,15 @@ html, body {
     color: orange;
     transition-duration: .5s;
 }
-
+.special{
+    background-color: orange;
+    color: black;
+}
+.special:hover{
+    background-color: rgb(128, 83, 0);
+    color: white;
+    transition-duration: .5s;
+}
 ul{
     list-style: none;
     font-family: 'Courier New', Courier, monospace;
