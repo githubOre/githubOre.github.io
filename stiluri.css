@@ -1,0 +1,47 @@
+.continator-meniu{
+    display: flex;
+    padding: 15px 0px 15px 30px;
+    background-color: #efede4;
+    margin: 30px 0px 0px 0px;
+    justify-content: space-between;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.meniu-navigare{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 25%;
+}
+
+.lista-elemente{
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.element-meniu{
+    display: block;
+}
+
+ul{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    width: max-content;
+    margin: 0px 20px 0px 0px;
+    padding: 0px;
+}
+
+
