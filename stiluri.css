@@ -55,11 +55,11 @@ html, body {
     color: orange;
     transition-duration: .5s;
 }
-.special{
+.special>a{
     background-color: orange;
     color: black;
 }
-.special:hover{
+.special>a:hover{
     background-color: rgb(128, 83, 0);
     color: white;
     transition-duration: .5s;
