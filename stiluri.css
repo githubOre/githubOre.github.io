@@ -1,6 +1,6 @@
 .continator-meniu{
     display: flex;
-    padding: 15px 0px 15px 30px;
+    padding: 0px 0px 0px 30px;
     background-color: #efede4;
     margin: 30px 0px 0px 0px;
     justify-content: space-between;
@@ -10,7 +10,10 @@ html, body {
     margin: 0px;
     padding: 0px;
 }
-
+.logo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .meniu-navigare{
     display: flex;
     flex-wrap: nowrap;
@@ -23,10 +26,19 @@ html, body {
     display: inherit;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 .element-meniu{
     display: block;
+    padding: 0px;
+    height: 100%;
+
+}
+
+.element-meniu:hover{
+    background-color: #6b6b6b;
+    color: white;
 }
 
 ul{
@@ -36,6 +48,7 @@ ul{
 a{
     text-decoration: none;
     color: black;
+    height: inherit;
 }
 
 li{
