@@ -10,10 +10,12 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    height: 100%;
 }
 .logo{
     height: fit-content;
     width: fit-content;
+    width: -moz-fit-content;
     align-self: center;
 }
 .logo > img{
@@ -48,6 +50,8 @@ html, body {
 .element-meniu>a{
     padding: 25px 10px 25px 10px;
     margin: 0px;
+    color: #848b81;
+    font-weight: 600;
     height: 100%;
 }
 .element-meniu>a:hover{
@@ -57,7 +61,7 @@ html, body {
 }
 .special>a{
     background-color: orange;
-    color: black;
+    color: #848b81;
 }
 .special>a:hover{
     background-color: rgb(128, 83, 0);
@@ -74,4 +78,77 @@ a{
     
 }
 
+.bg{
+    height:100%;
+    background:url("http://mythologica.ro/wp-content/uploads/2017/04/ciuma-neagra.jpg");
+    
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
 
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+  /* Style the "active" element to highlight the current page */
+  
+}
